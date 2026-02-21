@@ -1,7 +1,0 @@
-javaApplication1.Arithmetic
-javaApplication1.Sum
-javapplication1.JavaApplication1
-javapplication1.Arithmetic$Test
-javapplication1.Arithmetic
-javapplication1.Sum
-javaApplication1.Arithmetic$Test

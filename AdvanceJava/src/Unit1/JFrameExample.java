@@ -6,10 +6,6 @@ package Unit1;
 
 import javax.swing.JFrame;
 
-/**
- *
- * @author Shanti
- */
 //WAP to create a frame
 public class JFrameExample extends JFrame{
    JFrameExample(){

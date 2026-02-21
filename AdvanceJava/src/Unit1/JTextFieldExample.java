@@ -4,7 +4,6 @@
  */
 package Unit1;
 
-import java.awt.FlowLayout;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
@@ -24,7 +23,7 @@ public class JTextFieldExample {
         t1.setBounds(10,10,150,30);
         
         t2 = new JTextField("Address");
-        t2.setBounds(10,60,150,30);
+        t2.setBounds(10,40,150,30);
         
         f.add(t1);
         f.add(t2);

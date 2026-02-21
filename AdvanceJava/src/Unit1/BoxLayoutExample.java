@@ -1,19 +1,21 @@
-///*
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-// */
-//package Unit1;
-//
-//import javax.swing.JFrame;
-//
-///**
-// *
-// * @author Shanti
-// */
-//public class BoxLayoutExample {
-//    public static void main(String[] args){
-//        JFrame f= new JFrame("Example");
-//        f.setSize(300, 300);
-//        f.setDefaultCloseOperatio(JFrame)
-//    }
-//}
+package Unit1;
+
+import javax.swing.*;
+
+public class BoxLayoutExample {
+    public static void main(String[] args) {
+        JFrame f = new JFrame("BoxLayout Example");
+        f.setSize(300, 300);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        f.setLayout(new BoxLayout(f.getContentPane(), BoxLayout.Y_AXIS));
+
+        JButton b1 = new JButton("Button 1");
+        JButton b2 = new JButton("Button 2");
+
+        f.add(b1);
+        f.add(b2);
+        
+        f.setVisible(true);
+    }
+}
